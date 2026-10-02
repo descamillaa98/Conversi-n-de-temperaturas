@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <main class="container mt-5">
+
+        <div class="card shadow">
+
+            <div class="card-body">
+
+                <!-- Parte superior -->
+                <div class="text-center mb-4">
+                    <h1 class="card-title">Conversión de grados Celsius</h1>
+
+                    <input id="tempIpt" type="number" class="form-control mb-3"
+                        placeholder="Ingrese la temperatura en grados Celsius">
+
+                    <button id="convertirBtn" class="btn btn-primary">
+                        Convertir
+                    </button>
+                </div>
+
+                <!-- Parte inferior -->
+                <div class="row">
+
+                    <!-- Fahrenheit -->
+                    <div class="col-md-6">
+                        <div class="card h-100">
+                            <div class="card-body text-center">
+
+                                <h2 class="card-title">
+                                    Grados Fahrenheit
+                                </h2>
+
+                                <p id="resultadoF">
+                                    -- °F
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Kelvin -->
+                    <div class="col-md-6">
+                        <div class="card h-100">
+                            <div class="card-body text-center">
+
+                                <h2 class="card-title">
+                                    Grados Kelvin
+                                </h2>
+
+                                <p id="resultadoK">
+                                    -- K
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
